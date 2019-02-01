@@ -1,0 +1,20 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: antarezapp-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: antarezapp
+  template:
+    metadata:
+      labels:
+        app: antarezapp
+    spec:
+      containers:
+      - name: antarezapp
+        image: marcelomata/antarezapp:0.0.1
+        ports:
+        - name: http
+          containerPort: 8090
