@@ -1,5 +1,5 @@
 # java-app-on-kubernetes
-Orchestrating a simple java app in a kubernetes cluster. This is a simple Spring Boot application that suports a REST API and does persistence using JPA.
+Orchestrating a java app in a kubernetes cluster. This is a simple Spring Boot application that suports a REST API and does persistence using JPA.
 
 # 01-Running a MySQL database in a docker container
 To perform the tests, it is required to have docker ce installed in your Linux distribution. Link to [Ubuntu installation](https://docs.docker.com/v17.12/install/linux/docker-ce/ubuntu/#install-docker-ce-1). 
