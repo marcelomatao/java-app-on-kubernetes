@@ -8,8 +8,8 @@
 		<version>2.0.1.RELEASE</version>
 	</parent>
 	<artifactId>spring-boot-sample-hateoas</artifactId>
-	<name>Java on Kubernetes sample</name>
-	<description>Java on Kubernetes sample</description>
+	<name>Spring Boot Hateoas Sample</name>
+	<description>Spring Boot Hateoas Sample</description>
 	<properties>
 		<springfox.version>2.7.0</springfox.version>
 	</properties>
