@@ -11,7 +11,7 @@
 	<name>Spring Boot Hateoas Sample</name>
 	<description>Spring Boot Hateoas Sample</description>
 	<properties>
-		<springfox.version>2.7.0</springfox.version>
+		<springfox.version>2.10.0</springfox.version>
 	</properties>
 	<dependencies>
 		<!-- Compile -->
